@@ -1,0 +1,150 @@
+//--- top navigation ---//
+
+.main-nav {
+  align-items: center;
+  background-color: $bg-black1;
+  display: flex;
+  // flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  opacity: .8;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  transition: .5s;
+  width: 100%;
+  z-index: 1;
+
+  .link-nav {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+  }
+
+  .link {
+      color: $white;
+      font-size: .9rem;
+      font-weight: 600;
+      margin: 0 20px;
+      text-decoration: none;
+  }
+
+  .link.active {
+    border-bottom: $white 1px solid;
+  }
+}
+
+
+.link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  transition: width .3s;
+  width: 0;
+}
+
+
+.link:hover::after {
+  border-bottom: $white 1px solid;
+  margin-left: 18px;
+  // padding-right: 20px;
+  width: 78%;
+}
+
+.active {
+  color: $black;
+}
+
+// navbar effect
+.top {
+  background: transparent;
+}
+
+@include mq-xs {
+  .main-nav {
+    flex-direction: column;
+
+    .logo {
+      font-size: 1rem;
+    }
+
+    .icon-rem {
+      font-size: 1.6rem;
+    }
+  }
+
+  .link {
+    font-size: .5rem;
+  }
+}
+
+@include mq-land {
+  .main-nav {
+    flex-direction: row;
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .icon-rem {
+      font-size: 2rem;
+    }
+  }
+
+  .link {
+    font-size: .7rem;
+  }
+}
+
+
+@include mq-sm {
+  .main-nav {
+    // flex-direction: column;
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .icon-rem {
+      font-size: 2rem;
+    }
+  }
+
+  .link {
+    font-size: .7rem;
+  }
+}
+
+@include mq-md {
+  .main-nav {
+    flex-direction: row;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  .icon-rem {
+    font-size: 2.2rem;
+  }
+}
+
+@include mq-lg {
+  .main-nav {
+    flex-direction: row;
+  }
+
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .icon-rem {
+    font-size: 3rem;
+  }
+
+  .link {
+    font-size: 1.2rem;
+  }
+}
+
+

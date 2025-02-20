@@ -1,0 +1,5 @@
+navlinks:
+  - title: Home
+    link: /
+  - title: About
+    link: /_pages/about.html
