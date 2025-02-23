@@ -1,5 +1,7 @@
 navlinks:
   - title: Home
     link: /
+  - title: Contact
+    link: /_pages/contact.html
   - title: About
     link: /_pages/about.html

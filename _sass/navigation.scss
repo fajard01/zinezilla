@@ -2,10 +2,9 @@
 
 .main-nav {
   align-items: center;
-  background-color: $bg-black1;
+  background: $bg-black3;
   display: flex;
-  // flex-direction: row;
-  height: 80px;
+  height: 150px;
   justify-content: space-between;
   opacity: .8;
   padding: 20px;
@@ -16,6 +15,7 @@
   z-index: 1;
 
   .link-nav {
+    float: right;
     display: flex;
     list-style: none;
     padding-top: 10px;
@@ -23,13 +23,13 @@
 
   .link {
       color: $white;
-      font-size: .9rem;
-      font-weight: 600;
+      font-size: 2.0rem;
+      font-weight: 900;
       margin: 0 20px;
       text-decoration: none;
   }
 
-  .link.active {
+  .link:active {
     border-bottom: $white 1px solid;
   }
 }
@@ -43,36 +43,24 @@
   width: 0;
 }
 
-
 .link:hover::after {
   border-bottom: $white 1px solid;
   margin-left: 18px;
-  // padding-right: 20px;
   width: 78%;
 }
 
-.active {
-  color: $black;
+
+.logo {
+  float: left;
+  width: 90px;
+  height: 90px;
 }
 
-// navbar effect
-.top {
-  background: transparent;
-}
 
 @include mq-xs {
   .main-nav {
     flex-direction: column;
-
-    .logo {
-      font-size: 1rem;
-    }
-
-    .icon-rem {
-      font-size: 1.6rem;
-    }
   }
-
   .link {
     font-size: .5rem;
   }
@@ -81,15 +69,7 @@
 @include mq-land {
   .main-nav {
     flex-direction: row;
-
-    .logo {
-      font-size: 1.5rem;
-    }
-
-    .icon-rem {
-      font-size: 2rem;
-    }
-  }
+   }
 
   .link {
     font-size: .7rem;
@@ -99,15 +79,7 @@
 
 @include mq-sm {
   .main-nav {
-    // flex-direction: column;
-
-    .logo {
-      font-size: 1.5rem;
-    }
-
-    .icon-rem {
-      font-size: 2rem;
-    }
+    flex-direction: column;
   }
 
   .link {
@@ -119,27 +91,11 @@
   .main-nav {
     flex-direction: row;
   }
-
-  .logo {
-    font-size: 1.7rem;
-  }
-
-  .icon-rem {
-    font-size: 2.2rem;
-  }
 }
 
 @include mq-lg {
   .main-nav {
     flex-direction: row;
-  }
-
-  .logo {
-    font-size: 2.6rem;
-  }
-
-  .icon-rem {
-    font-size: 3rem;
   }
 
   .link {

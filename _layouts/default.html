@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- metadata and links-->
 <head>
     {% include headtag.html %}
 </head>
+
 <body id={{ page.id }}>
     <header>
         {% include_cached navigation.html %}
     </header>
-    <main>
-        {{ content }}
+    <main class="centre-title">
+        <section>
+            {{ content }}
+        </section>
     </main>
 </body>

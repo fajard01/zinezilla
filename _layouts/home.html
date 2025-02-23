@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- metadata and links-->
+<head>
+    {% include headtag.html %}
+</head>
+
+<!-- cover image-->
+<div class="container-fluid bg-fullwidth">
+    <div class="zinezilla-image">
+        <div class="centre-title">
+            <h1 class="main-title">Zinezilla!!</h1>
+            <h3 class="subtitle">Zinezilla Bristol Event</h3>
+        </div>
+    </div>
+</div>
+
+<body id={{ page.id }}>
+    <header>
+        {% include_cached navigation.html %}
+    </header>
+    <div></div>
+    <main>
+        <section>
+            {{ content }}
+        </section>
+    </main>
+</body>

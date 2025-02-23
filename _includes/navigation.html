@@ -1,8 +1,8 @@
-<!-- navigation bar -->
- 
-<div id="main-nav" class="main-nav top">
+<!-- top main navigation bar-->
+<div class="main-nav">
     <nav>
-        <ul id="link-nav" class="link-nav">
+        <img src={{ "/assets/img/logo.png" | relative_url }} class="logo logo-text">Zinezilla</img>
+        <ul class="link-nav">
           {% for link in site.data.navigation.navlinks %}
           <li>
             <a class="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
