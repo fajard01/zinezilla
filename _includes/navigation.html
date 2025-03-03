@@ -1,0 +1,15 @@
+<!-- top main navigation bar-->
+<div class="main-nav">
+    <nav>
+    <!--   <img src={{ "/img/logo.png" | absolute_url }} class="logo"> 
+          <i class="logo-title">Zinezilla</i>
+        </img> -->
+        <ul class="link-nav">
+          {% for link in site.data.navigation.navlinks %}
+          <li>
+            <a class="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+</div>

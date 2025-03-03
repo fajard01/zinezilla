@@ -1,0 +1,30 @@
+title: Zinezilla
+tagline: Zinezilla Bristol event
+description: >-
+  Zine fair organised by Mereida fajardo
+
+owner:
+  - name: Danny Fajardo
+  - email: fajardodanny@yahoo.co.uk
+  - github: fajard01
+
+tags:
+  - GitHub
+  - GitHub Pages
+  - Zinezilla
+
+locale: en_GB
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-timeago
+
+livereload: true
+
+include:
+  - _pages
+  - _includes
+
