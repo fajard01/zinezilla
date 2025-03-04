@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
   <head>
     {% include headtag.html %}
   </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
+  <body id={{ page.id }}>
+    <header>
+      {% include_cached navigation.html %}
+    </header>
+    <main>
+      {{ content }}
+    </main>
   </body>
 </html>

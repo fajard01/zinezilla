@@ -1,0 +1,109 @@
+///////// Global Properties //////////
+
+// icons
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// font
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+// global variables
+$font-stack: Verdana, sans-serif;
+$nav-height: 140px;
+
+// derived colors
+$white: #ffff;
+$black: #0000;
+$bg-black1: #18181e;
+$bg-black2: #060c17;
+$bg-black3: #2f3139;
+$deep-blu: #1c263e;
+$salt-lake: #6f665d;
+$atmosphere: #2f3643;
+$jungle: #1b2723;
+$edge: #0c1221;
+$horizon: #6d7f97;
+$monk-hair: #151411;
+$banana: #876831;
+$snow: #b5b5b9;
+$fuzzy-green: #8e823f;
+$adobe: #4a423e;
+$red-cap: #5a232a;
+$purple-cap: #89513f;
+$german-yellow: #886223;
+$line-end: #f0f0f0;
+$line-mid: #8c8b8b;
+$violet: #3104b4;
+$green-yellow: #5fb404;
+$zinezilla-yellow: #b08024;
+
+// font title sizes
+@mixin head {
+  font-size: 2.7rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@mixin subhead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 45px;
+  max-width: 90%;
+  text-align: center;
+}
+
+// global settings
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/////////// Settings /////////////
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: 'Verdana', sans serif;
+  font-size: 16px;
+}
+
+.bg-fullwidth {
+  margin: 0;
+  padding: 0;
+}
+
+
+// Media Queries
+
+@mixin mq-xs {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin mq-land {
+  @media (min-width: 560px) and (max-height: 450px) {
+    @content;
+  }
+}
+
+@mixin mq-sm {
+  @media (min-width: 480px) and  (max-width: 719px) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (min-width: 720px) and (max-width: 999px) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}

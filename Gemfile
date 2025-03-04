@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", '~> 4.0'
-gem "liquid-c"
+gem 'jekyll', '~> 4.0'
+gem 'liquid-c'
 gem 'jekyll-include-cache'
 
 group :jekyll_plugins do
