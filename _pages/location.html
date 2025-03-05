@@ -1,13 +1,12 @@
 ---
 layout: default
-address: >-
-        Trinity Community Arts Centre
-        Trinity Rd, St Jude's, Bristol BS2 0NW
-website: https://www.trinitybristol.org.uk/
+address: Trinity Community Arts Centre
+         Trinity Rd, St Jude's, Bristol BS2 0NW
 ---
 
-<div>
-    <h1>{{ page.address }} </h1>
-    <h2>{{ page.website }}</h2>
+<div class="container-fluid bg-fullwidth centre-text">
+    {% include_cached map.html %}
+    <h2>Trinity Community Arts Centre<br>Trinity Rd, St Jude's, Bristol BS2 0NW</h2>
+    <a class="trinity-link" href="https://www.trinitybristol.org.uk/">trinitybristol.org.uk</a>
 </div>
 

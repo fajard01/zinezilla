@@ -1,5 +1,5 @@
 .zinezilla-image {
-    background: url('/img/zinezilla.jpg') no-repeat center center / cover;
+   // background: url('/img/zinezilla1.jpg') no-repeat center center / cover;
     height: 100vh;
     //opacity: .4;
     margin: 0;
@@ -8,23 +8,22 @@
     z-index: -1;
 }
   
-.centre-title {
+.centre-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //padding-top: 10vh;
     text-align: center;
     width: auto;
 }
 
 .main-title {
       color: $white;
-      font-size: 3.0rem;
-      font-weight: 1500;
+      font-size: 6.0rem;
+      font-weight: 5000;
 }
   
-.subtitle {
-      color: $banana;
+.sub-title {
+      color: $white;
       font-size: 2.5rem;
       font-weight: 1200;
 }

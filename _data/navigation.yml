@@ -1,10 +1,10 @@
 navlinks:
   - title: Home
     link: /
-  - title: Location
-    link: /_pages/location.html
   - title: Event Info
     link: /_pages/eventinfo.html
+  - title: Location
+    link: /_pages/location.html
   - title: Apply
     link: /_pages/apply.html
 # buttons:
