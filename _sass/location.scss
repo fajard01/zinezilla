@@ -1,0 +1,132 @@
+/* Row to devide */
+.row {
+    display: flex;
+    height: 70hv;
+  }
+
+.column {
+    float: left;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.left-map {
+    width: 60%;
+}
+  
+.right-info {
+    width: 40%;
+}
+
+@include mq-xs {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+@include mq-sm {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+@include mq-md {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+// @include mq-lg {
+//   .column {
+//     width: 100%;
+//   }
+//   .left {
+//     justify-content: center;
+//   }
+//   .right {
+//     justify-content: center;
+//   }
+// }
+
+
+
+
+
+.iframe-map {
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    width: 600px;
+}
+
+.trinity-link { 
+    color: $jungle;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.trinity-link:hover {
+    font-style: oblique;
+}
+
+.map-info {
+    flex-direction: column;
+    font-size: .6rem;
+    justify-content: right;
+    margin-top: 280px;
+}
+
+@include mq-xs {
+    .iframe-map {
+        height: 200px;
+        margin-top: 150px;
+        width: 200px;
+    }
+}
+
+@include mq-sm {
+    .iframe-map {
+        height: 300px;
+        margin-top: 150px;
+        width: 400px;
+    }
+}
+  
+// mobile landscape
+@include mq-md {
+    .iframe-map {
+        height: 400px;
+        margin-top: 150px;
+        width: 400px;
+    }
+}
+  
+@include mq-lg {
+   
+}

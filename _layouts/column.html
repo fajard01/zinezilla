@@ -8,12 +8,14 @@
       {% include_cached navigation.html %}
     </header>
     <div>
-      <main id="{{ page.id }}">
-        {{ content }}
-      </main>
+        <main id={{ page.id }}>
+          <div class="container row">
+            {{ content }}
+          </div>
+        </main>
     </div>
     <div>
-      {% include_cached footer.html %}
+        {% include_cached footer.html %}
     </div>
   </body>
 </html>

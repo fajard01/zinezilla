@@ -1,0 +1,82 @@
+.row {
+    display: flex;
+    height: 70hv;
+  }
+
+.column {
+    float: left;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.left {
+    width: 60%;
+}
+  
+.right {
+    width: 40%;
+}
+
+.centre-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+@include mq-xs {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+@include mq-sm {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+@include mq-md {
+  .column {
+    width: 100%;
+  }
+  .left {
+    justify-content: center;
+  }
+  .right {
+    justify-content: center;
+  }
+}
+
+// @include mq-lg {
+//   .column {
+//     width: 100%;
+//   }
+//   .left {
+//     justify-content: center;
+//   }
+//   .right {
+//     justify-content: center;
+//   }
+// }
+
+

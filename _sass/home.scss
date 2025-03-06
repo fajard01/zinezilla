@@ -1,6 +1,6 @@
 .zinezilla-image {
-   // background: url('/img/zinezilla1.jpg') no-repeat center center / cover;
-    height: 100vh;
+    //background: url('/img/zinezilla1.jpg') no-repeat center center / cover;
+    height: 70vh;
     //opacity: .4;
     margin: 0;
     padding: 0;
@@ -8,18 +8,11 @@
     z-index: -1;
 }
   
-.centre-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: auto;
-}
-
 .main-title {
       color: $white;
-      font-size: 6.0rem;
-      font-weight: 5000;
+      font-size: 4rem;
+      font-weight: 1000;
+      margin-top: 50px;;
 }
   
 .sub-title {
@@ -27,24 +20,42 @@
       font-size: 2.5rem;
       font-weight: 1200;
 }
+
+.info {
+  color: $red-cap;
+  font-weight: 800;
+}
   
-// mobile
 @include mq-xs {
+  .centre-title {
+    padding-top: 40vh;
+  }
+
+  .main-title {
+    font-size: 1.7rem;
+  }
+
+  .sub-title {
+    font-size: .9rem;
+  }
+}
+
+@include mq-sm {
     .centre-title {
       padding-top: 40vh;
     }
   
-    h1 {
+    .main-title {
       font-size: 1.7rem;
     }
   
-    h3 {
+    .sub-title {
       font-size: .9rem;
     }
 }
   
-// mobile landscape
-@include mq-land {
+
+@include mq-md {
     .zinezilla-title {
       padding-top: 25vh;
     }

@@ -5,7 +5,7 @@
         <ul class="link-nav">
           {% for link in site.data.navigation.navlinks %}
           <li>
-            <a class="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+            <a id="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
           </li>
           {% endfor %}
         </ul>

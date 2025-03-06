@@ -12,8 +12,8 @@ $font-stack: Verdana, sans-serif;
 $nav-height: 140px;
 
 // derived colors
-$white: #ffff;
-$black: #0000;
+$white: #fff;
+$black: #000;
 $bg-black1: #18181e;
 $bg-black2: #060c17;
 $bg-black3: #2f3139;
@@ -75,6 +75,14 @@ body {
   padding: 0;
 }
 
+.centre-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
 
 // Media Queries
 
@@ -103,7 +111,13 @@ body {
 }
 
 @mixin mq-lg {
-  @media (min-width: 1000px) {
+  @media (min-width: 1000px) and (min-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin mq-xl {
+  @media (min-width: 1200px) {
     @content;
   }
 }

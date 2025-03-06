@@ -15,22 +15,23 @@
     display: flex;
     list-style: none;
     margin-right: 5%;
+    margin-top: 1%;
     opacity: 1;
-  }
-
-  .link {
-    color: $zinezilla-yellow;
-    font-family: $font-stack;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: 0 30px;
-    opacity: 1.0;
-    position: static;
-    text-decoration: none;
   }
 }
 
-.link::after {
+#link {
+  color: $zinezilla-yellow;
+  font-family: $font-stack;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 30px;
+  opacity: 1.0;
+  position: static;
+  text-decoration: none;
+}
+
+#link::after {
   content: '';
   display: block;
   height: 2px;
@@ -38,7 +39,7 @@
   width: 0;
 }
 
-.link:hover::after, link:active {
+#link:hover::after {
   border-bottom: $zinezilla-yellow 1px solid;
   margin-left: 26px;
   width: 78%;
@@ -59,49 +60,10 @@
   .link-nav {
     flex-direction: column;
   }
-  .link {
-    font-size: small;
-  }
-}
-
-@include mq-sm {
-  .main-nav {
-    background: none;
-  }
-  .link-nav {
-    flex-direction: column;
-  }
-  .link {
-    font-size: small;
-  }
-}
-
-@include mq-land {
-  .main-nav {
-    flex-direction: row;
-   }
-
-  .link {
-    font-size: .7rem;
-  }
-}
-
-@include mq-md {
-  .link-nav{
-    flex-direction: row;
-  }
-  .link {
+  #link {
+    color: $bg-black2;
     font-size: .9rem;
+    font-weight: 900;
   }
 }
-
-@include mq-lg {
-  .link-nav {
-    flex-direction: row;
-  }
-  .link {
-    font-size: 1.2rem;
-  }
-}
-
 
