@@ -2,11 +2,6 @@
 .row {
     display: flex;
     height: 70hv;
-  }
-
-.column {
-    float: left;
-    justify-content: center;
 }
 
 /* Clear floats after the columns */
@@ -17,70 +12,18 @@
 }
   
 .left-map {
-    width: 60%;
+    width: 50%;
 }
   
 .right-info {
-    width: 40%;
+    width: 50%;
 }
-
-@include mq-xs {
-  .column {
-    width: 100%;
-  }
-  .left {
-    justify-content: center;
-  }
-  .right {
-    justify-content: center;
-  }
-}
-
-@include mq-sm {
-  .column {
-    width: 100%;
-  }
-  .left {
-    justify-content: center;
-  }
-  .right {
-    justify-content: center;
-  }
-}
-
-@include mq-md {
-  .column {
-    width: 100%;
-  }
-  .left {
-    justify-content: center;
-  }
-  .right {
-    justify-content: center;
-  }
-}
-
-// @include mq-lg {
-//   .column {
-//     width: 100%;
-//   }
-//   .left {
-//     justify-content: center;
-//   }
-//   .right {
-//     justify-content: center;
-//   }
-// }
-
-
-
-
 
 .iframe-map {
     height: 400px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 150px;
     width: 600px;
 }
@@ -98,8 +41,8 @@
 .map-info {
     flex-direction: column;
     font-size: .6rem;
-    justify-content: right;
-    margin-top: 280px;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 @include mq-xs {
@@ -107,6 +50,9 @@
         height: 200px;
         margin-top: 150px;
         width: 200px;
+    }
+    .map-info {
+      margin-top: 20px;
     }
 }
 

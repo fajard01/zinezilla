@@ -1,0 +1,44 @@
+.contact-col {
+    display: flex;
+    height: 40px;
+    justify-content: left;
+    width: 350px;
+}
+
+.footer-row {
+    display: flex;
+    margin-top: 100px;
+}
+
+.footer-msg {
+    margin-top: 6px;
+    text-align: right;
+}
+
+.icon {
+    color: $jungle;
+    font-size: 15px;
+    position: static;
+}
+
+.icon:hover {
+    font-size: 22px;
+}
+
+.instagram-icon {
+    margin-left: 29px;
+}
+
+.footer-text{
+    text-align: left;
+}
+
+.copyright-text {
+    font-size: x-small;
+}
+
+@include mq-xs {
+    .contact-col {
+        width: 100%;
+    }
+}
