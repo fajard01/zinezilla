@@ -1,8 +1,28 @@
 .event-info {
-    display: flex;
     height: 100hv;
+    margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 150px;
     text-align: center;
+    width: 90%;
+}
+
+.event-row {
+    justify-items: center;
+    margin-top: 70px;;
+}
+
+.event-col {
+    width: 30%;
+}
+
+.animinspo {
+    color: $jungle;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.animinspo:hover {
+    font-style: italic;
 }

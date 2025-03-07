@@ -67,3 +67,17 @@
   }
 }
 
+@include mq-sm {
+  .main-nav {
+    background: none;
+  }
+  .link-nav {
+    flex-direction: column;
+  }
+  #link {
+    color: $bg-black2;
+    font-size: .9rem;
+    font-weight: 900;
+  }
+}
+

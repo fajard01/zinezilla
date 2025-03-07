@@ -1,8 +1,8 @@
 .contact-col {
     display: flex;
     height: 40px;
-    justify-content: left;
-    width: 350px;
+    justify-content: right;
+    width: 100px;
 }
 
 .footer-row {
@@ -13,6 +13,7 @@
 .footer-msg {
     margin-top: 6px;
     text-align: right;
+    width: 40px;
 }
 
 .icon {
