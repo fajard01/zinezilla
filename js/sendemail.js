@@ -1,5 +1,3 @@
-<script>
-    function sendEmail() {
-      window.location = "mailto:zinezilla.bristol@gmail.com.com";
-    }
-</script>
+function sendEmail() {
+  window.open("mailto:zinezilla.bristol@gmail.com.com");
+}

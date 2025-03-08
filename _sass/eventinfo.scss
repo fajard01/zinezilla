@@ -1,20 +1,21 @@
 .event-info {
+    display: flex;
     height: 100hv;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 150px;
-    text-align: center;
-    width: 90%;
 }
 
 .event-row {
-    justify-items: center;
-    margin-top: 70px;;
+    align-items: center;
+    margin-top: 140px;
 }
 
 .event-col {
-    width: 30%;
+    align-self: center;
+    margin-top: 40px;
+    width: 80%;
 }
 
 .animinspo {
@@ -26,3 +27,4 @@
 .animinspo:hover {
     font-style: italic;
 }
+
