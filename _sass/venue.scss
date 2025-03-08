@@ -25,17 +25,22 @@
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 150px;
-    width: 600px;
+    width: 700px;
 }
 
 .trinity-link { 
     color: $jungle;
     font-size: 2rem;
     text-decoration: none;
+    text-align: left;
 }
 
 .trinity-link:hover {
     font-style: oblique;
+}
+
+.venue {
+    text-align: left;
 }
 
 .map-info {
@@ -52,7 +57,15 @@
         width: 200px;
     }
     .map-info {
-      margin-top: 20px;
+      margin-top: 2px;
+    }
+    .trinity-link {
+        font-size: large;
+        text-align: center;
+    }
+    .venue {
+        font-size: large;
+        text-align: center;
     }
 }
 
@@ -62,14 +75,35 @@
         margin-top: 200px;
         width: 400px;
     }
+    .map-info {
+        margin-top: 2px;
+    }
+    .trinity-link {
+        font-size: large;
+        text-align: center;
+    }
+    .venue {
+        font-size: large;
+        text-align: center;
+    }
 }
   
-// mobile landscape
 @include mq-md {
     .iframe-map {
         height: 400px;
         margin-top: 150px;
         width: 400px;
     }
+    .map-info {
+        margin-top: 2px;
+    }
+    .trinity-link {
+        text-align: center;
+    }
+    .venue {
+        text-align: center;
+    }
 }
+
+
   

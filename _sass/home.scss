@@ -1,6 +1,6 @@
 .zinezilla-image {
-    //background: url('/img/zinezilla1.jpg') no-repeat center center / cover;
-    height: 70vh;
+    background: url('/img/zinezilla2.png') no-repeat center center / cover;
+    height: 85vh;
     //opacity: .4;
     margin: 0;
     padding: 0;
@@ -22,8 +22,12 @@
 }
 
 .info {
-  color: $red-cap;
+  color: $white;
   font-weight: 800;
+}
+
+.animate {
+  text-shadow: $atmosphere;
 }
   
 @include mq-xs {

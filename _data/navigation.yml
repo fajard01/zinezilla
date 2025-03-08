@@ -1,14 +1,14 @@
 navlinks:
   - title: Home
     link: /
-  - title: Event Info
-    link: /_pages/eventinfo.html
-  - title: Location
-    link: /_pages/location.html
+  - title: Info
+    link: /_pages/info.html
+  - title: Venue
+    link: /_pages/venue.html
   - title: Apply
     link: /_pages/apply.html 
 buttons:
-  - title: Buy Tickets
+  - title: Get Tickets
     url: https://hdfst.uk/e123090
   - title: Shop
     url: http://www.zinezilla.bigcartel.com
