@@ -8,6 +8,9 @@
             <a id="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
           </li>
           {% endfor %}
+          {% for url in site.data.navigation.buttons %}
+            <a class="btn button" id="button" target="_blank" href={{ url.url | relative_url }}>{{ url.title }}</a>
+          {% endfor %}
         </ul>
       </nav>
 </div>

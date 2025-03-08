@@ -48,7 +48,7 @@
 @include mq-xs {
     .iframe-map {
         height: 200px;
-        margin-top: 150px;
+        margin-top: 200px;
         width: 200px;
     }
     .map-info {
@@ -59,7 +59,7 @@
 @include mq-sm {
     .iframe-map {
         height: 300px;
-        margin-top: 150px;
+        margin-top: 200px;
         width: 400px;
     }
 }
@@ -73,6 +73,3 @@
     }
 }
   
-@include mq-lg {
-   
-}

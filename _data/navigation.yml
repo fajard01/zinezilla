@@ -6,9 +6,9 @@ navlinks:
   - title: Location
     link: /_pages/location.html
   - title: Apply
-    link: /_pages/apply.html
-# buttons:
-  # - title: Buy Tickets
-  #   link : /_pages/buytickets.html
-  # - title: Shop
-  #   link: /_pages/shop.html
+    link: /_pages/apply.html 
+buttons:
+  - title: Buy Tickets
+    url: https://hdfst.uk/e123090
+  - title: Shop
+    url: http://www.zinezilla.bigcartel.com
