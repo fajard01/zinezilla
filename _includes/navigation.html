@@ -1,16 +1,23 @@
 <!-- top main navigation bar-->
-<div class="main-nav">
-    <nav>
-    <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
-        <ul class="link-nav">
+<div class="navbar">
+    <nav> 
+      <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
+        <ul class="nav-menu">
           {% for link in site.data.navigation.navlinks %}
           <li>
-            <a id="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+            <a id="nav-item" href={{ link.link | relative_url }}>{{ link.title }}</a>
           </li>
           {% endfor %}
           {% for url in site.data.navigation.buttons %}
-            <a class="btn button" id="button" target="_blank" href={{ url.url | relative_url }}>{{ url.title }}</a>
+            <a class="btn btn-primary button" id="button-item" target="_blank" role="button"
+               href={{ url.url | relative_url }}>{{ url.title }}</a>
           {% endfor %}
         </ul>
-      </nav>
+        <!-- define default property display: none-->
+        <!-- <div class="burger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> -->
+    </nav>
 </div>

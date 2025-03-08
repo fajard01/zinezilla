@@ -1,9 +1,6 @@
-.zinezilla-image {
+.home-img {
     background: url('/img/zinezilla2.png') no-repeat center center / cover;
     height: 85vh;
-    //opacity: .4;
-    margin: 0;
-    padding: 0;
     position: relative;
     z-index: -1;
 }
@@ -12,35 +9,43 @@
       color: $white;
       font-size: 4rem;
       font-weight: 1000;
-      margin-top: 50px;;
+      margin-top: 5%;
 }
   
 .sub-title {
       color: $white;
       font-size: 2.5rem;
       font-weight: 1200;
+      margin-bottom: 4%;
 }
 
 .info {
-  color: $white;
+  color: $edge;
   font-weight: 800;
 }
 
-.animate {
-  text-shadow: $atmosphere;
+.animinspo-gif {
+  align-self: center;
+  width: 500px;
+  margin-bottom: 4%;
 }
+
   
 @include mq-xs {
-  .centre-title {
-    padding-top: 40vh;
-  }
-
   .main-title {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    margin-top: 0;
   }
 
   .sub-title {
-    font-size: .9rem;
+    font-size: 1.4rem;
+  }
+  .animinspo-gif {
+    width: 230px;
+  }
+  
+  .info {
+    font-size: 1rem;;
   }
 }
 

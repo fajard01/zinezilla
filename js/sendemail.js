@@ -1,3 +1,3 @@
 function sendEmail() {
-  window.open("mailto:zinezilla.bristol@gmail.com.com");
+  window.window.location.href = 'mailto:zinezilla.bristol@gmail.com.com';
 }

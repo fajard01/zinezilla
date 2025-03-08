@@ -1,17 +1,20 @@
 ///////// Global Properties //////////
 
+// imports 
 // icons
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-// font
-@import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
-// global variables
-$font-stack: Verdana, sans-serif;
+// global properties
+// variables
+$font-stack: Verdana, sans-serif; 
 $nav-height: 140px;
 
-// derived colors
+// derived colours
 $white: #fff;
 $black: #000;
 $bg-black1: #18181e;
@@ -38,7 +41,7 @@ $violet: #3104b4;
 $green-yellow: #5fb404;
 $zinezilla-yellow: #b08024;
 
-// font title sizes
+// title font sizes
 @mixin head {
   font-size: 2.7rem;
   font-weight: 500;
@@ -62,13 +65,19 @@ $zinezilla-yellow: #b08024;
   padding: 0;
 }
 
-/////////// Settings /////////////
-
 body {
   background-color: $zinezilla-yellow;
   color: $white;
   font-family: 'Verdana', sans serif;
   font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .bg-fullwidth {
@@ -85,8 +94,7 @@ body {
 }
 
 
-// Media Queries
-
+// media queries
 @mixin mq-xs {
   @media (max-width: 479px) {
     @content;
