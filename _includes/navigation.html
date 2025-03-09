@@ -4,20 +4,14 @@
       <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
         <ul class="nav-menu">
           {% for link in site.data.navigation.navlinks %}
-          <li>
-            <a id="nav-item" href={{ link.link | relative_url }}>{{ link.title }}</a>
+          <li class="nav-item">
+            <a class="nav-link" href={{ link.link | relative_url }}>{{ link.title }}</a>
           </li>
           {% endfor %}
           {% for url in site.data.navigation.buttons %}
-            <a class="btn btn-primary button" id="button-item" target="_blank" role="button"
+            <a class="btn btn-primary button" target="_blank" role="button"
                href={{ url.url | relative_url }}>{{ url.title }}</a>
           {% endfor %}
         </ul>
-        <!-- define default property display: none-->
-        <!-- <div class="burger-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div> -->
     </nav>
 </div>

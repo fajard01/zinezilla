@@ -1,41 +1,38 @@
 //--- top navigation ---//
 .navbar {
+  align-items: center;
   background: $bg-black2;
+  display: flex;
   height: 100px;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
 }
 
 .logo {
   float: left;
   height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 80px;
 }
 
 .nav-menu {
   display: flex;
   list-style: none;
-  margin-top: 3%;.button {
-    color: $bg-black2;
-  }
+  gap: 40px;
+  margin-top: 3%;
 }
 
-.nav-menu.active {
-  left: 0;
-}
-
-#nav-item {
+.nav-link {
   color: $zinezilla-yellow;
   font-family: $font-stack;
   font-size: 1.1rem;
   font-weight: 600;
-  margin: 0px 0px 0px 40px;
-  position: static
 }
 
-#nav-item::after {
+.nav-link::after {
   content: '';
   display: block;
   height: 2px;
@@ -43,10 +40,9 @@
   width: 0;
 }
 
-#nav-item:hover::after {
-  border-bottom: $zinezilla-yellow 1px solid;
-  margin-left: 35px;
-  width: 68%;
+.nav-link:hover::after {
+  border-bottom: $white 1px solid;
+  width: 100%;
 }
 
 .button {
@@ -56,7 +52,6 @@
   color: $bg-black2;
   font-style: italic;
   font-weight: 700;
-  margin: 0px 0px 0px 45px;
   padding: 1px 6px;
   text-decoration: none;
   transition-duration: 0.4s;
@@ -72,26 +67,6 @@
   width: 0;
 }
 
-/* Default styles for the burger menu icon */
-// .burger-menu {
-//   display: none; /* hide by default */
-// }
-
-/* Styles for the burger menu icon when clicked */
-//.burger-menu.clicked {
-  /* Your burger menu styles */
-//}
-
-// .bar {
-//   display: block;
-//   width: 25px;
-//   height: 3px;
-//   margin: 5px auto;
-//   -webkit-transition: all 0.3s ease-in-out;
-//   transition: all 0.3s ease-in-out;
-//   background-color: #101010;
-// }
-
 ///////////////////////////////////////////////////
 
 @include mq-xs {
@@ -99,43 +74,28 @@
     background: none;
     left: -100;
   }
-  .nav-menu {
-    flex-direction: column;
-  }
-  #nav-item {
-    color: $zinezilla-yellow;
+  .nav-link {
+    color: $white;
     font-size: 1rem;
     font-weight: 900;
   }
+  .button {
+    background-color: $white;
+  }
 }
 
-//////// TODO ///////////////////////
 @include mq-sm {
   .navbar {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow:
-    0 10px 27px rgba(0, 0, 0, 0.05);
+    background: none;
+    left: -100;
   }
-  // .navbar {
-  //   background: none;
-  // }
-  .nav-menu {
-    flex-direction: column;
-  }
-  #nav-item {
-    color: $bg-black2;
-    font-size: .9rem;
+  .nav-link {
+    color: $white;
+    font-size: 1.2rem;
     font-weight: 900;
   }
-  // .button {
-  //   color: $bg-black2;
-  // }
+  .button {
+    background-color: $white;
+  }
 }
 
