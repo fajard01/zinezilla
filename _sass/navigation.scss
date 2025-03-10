@@ -1,28 +1,23 @@
 //--- top navigation ---//
 .navbar {
-  align-items: center;
   background: $bg-black2;
-  display: flex;
   height: 100px;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
   width: 100%;
 }
 
 .logo {
   float: left;
-  height: 80px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 80px;
+  height: fit-content;
+  margin-left: 16px;
+  width: 86px;
 }
 
 .nav-menu {
+  align-content: center;
   display: flex;
   list-style: none;
   gap: 40px;
-  margin-top: 3%;
+  margin-right: 40px;
 }
 
 .nav-link {
@@ -74,9 +69,15 @@
     background: none;
     left: -100;
   }
+
+  .nav-menu {
+    gap: 10px;
+    margin-left: 10px;
+  }
+
   .nav-link {
     color: $white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 900;
   }
   .button {
@@ -89,11 +90,18 @@
     background: none;
     left: -100;
   }
+
+  .nav-menu {
+    gap: 10px;
+    margin-left: 10px;
+  }
+
   .nav-link {
     color: $white;
     font-size: 1.2rem;
     font-weight: 900;
   }
+  
   .button {
     display: none;
   }

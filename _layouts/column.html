@@ -3,16 +3,16 @@
 <!DOCTYPE html lang="en">
 <html>
   <head>
-    {% include headtag.html %}
+    {% include meta.html %}
   </head>
   <body>
     <header>
-      {% include_cached navigation.html %}
+      {% include_cached navbar.html %}
     </header>
     <div>
         <main id={{ page.id }}>
           <!-- row -->
-          <div class="row">
+          <div class="row primary-row">
             {{ content }} <!-- columns -->
           </div>
         </main>

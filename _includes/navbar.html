@@ -1,0 +1,17 @@
+<!-- top main navigation bar-->
+<div>
+    <nav class="navbar"> 
+      <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
+        <ul class="nav-menu">
+          {% for link in site.data.navigation.navlinks %}
+          <li class="nav-item">
+            <a class="nav-link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+          </li>
+          {% endfor %}
+          {% for url in site.data.navigation.buttons %}
+            <a class="btn btn-primary button" target="_blank" role="button"
+               href={{ url.url | relative_url }}>{{ url.title }}</a>
+          {% endfor %}
+        </ul>
+    </nav>
+</div>
