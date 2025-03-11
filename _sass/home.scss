@@ -9,7 +9,9 @@
       color: $white;
       font-size: 4rem;
       font-weight: 1000;
-      //margin-top: 5%;
+      text-shadow: 1px 2px $edge,
+                   0 0 1em $edge,
+                   0 0 0.2em $edge;
 }
   
 .sub-title {
@@ -21,7 +23,8 @@
 
 .info {
   color: $edge;
-  font-weight: 800;
+  font-stretch:expanded;
+  font-weight: 1000;
 }
 
 .animinspo-gif {

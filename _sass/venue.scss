@@ -11,12 +11,10 @@
   clear: both;
 }
   
-.left-map {
-    width: 50%;
-}
-  
-.right-info {
-    width: 50%;
+.map {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .google-map {
@@ -51,7 +49,7 @@
 }
 
 @include mq-xs {
-    .iframe-map {
+    .google-map {
         height: 200px;
         margin-top: 200px;
         width: 200px;
@@ -70,7 +68,7 @@
 }
 
 @include mq-sm {
-    .iframe-map {
+    .google-map {
         height: 300px;
         margin-top: 200px;
         width: 400px;
@@ -89,7 +87,7 @@
 }
   
 @include mq-md {
-    .iframe-map {
+    .google-map {
         height: 400px;
         margin-top: 150px;
         width: 400px;

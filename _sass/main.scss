@@ -33,7 +33,14 @@ $fuzzy-green: #8e823f;
 $adobe: #4a423e;
 $red-cap: #5a232a;
 $red-bull: #612719;
-$purple-cap: #89513f;
+$purple-cap: #89513f;.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #583760;
+  align-items: center;
+  padding: 20px 60px;
+  }
 $german-yellow: #886223;
 $line-end: #f0f0f0;
 $line-mid: #8c8b8b;
@@ -70,6 +77,15 @@ body {
   color: $white;
   font-family: $font-stack;
   font-size: 16px;
+}
+
+.header {
+  align-items: center;
+  background: $bg-black2;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 li {

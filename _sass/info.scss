@@ -7,8 +7,12 @@
 }
 
 .event-head {
+    color: $white;
     font-size: 2.5rem;
-    color: $atmosphere;
+    font-weight: 900;
+    text-shadow: 1px 2px $edge,
+                 0 0 1em $edge,
+                 0 0 0.2em $edge;
 }
 
 .get-apply {
@@ -21,8 +25,8 @@
 }
 
 .applynow-img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 .animinspo-col {
@@ -40,8 +44,8 @@
 }
 
 .animinspologo-img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 
