@@ -1,20 +1,18 @@
 <!-- top main navigation bar-->
 
-<div class="mobile-nav">
+<nav class="navbar"> 
   <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
-  <button onclick={ openMenu() } class="btn btn-primary burger-menu" role="button">Menu</button>
-</div>
-  <nav class="navbar"> 
-    <ul class="nav-menu">
-      {% for link in site.data.navigation.navlinks %}
-      <li class="nav-item">
-            <a class="nav-link" href={{ link.link | relative_url }}>{{ link.title }}</a>
-          </li>
-          {% endfor %}
-          {% for url in site.data.navigation.buttons %}
-            <a class="btn btn-primary button" target="_blank" role="button"
-               href={{ url.url | relative_url }}>{{ url.title }}</a>
-          {% endfor %}
-        </ul>
-        
-    </nav>
+  <ul class="nav-menu">
+    {% for link in site.data.navigation.navlinks %}
+    <li class="nav-item">
+      <a class="nav-link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+    </li>
+    {% endfor %}
+    {% for url in site.data.navigation.buttons %}
+    <li class="nav-item">
+      <a class="btn btn-primary button" target="_blank" role="button"
+         href={{ url.url | relative_url }}>{{ url.title }}</a>
+    </li>  
+    {% endfor %}
+  </ul>
+</nav>
