@@ -1,37 +1,45 @@
 .home-img {
-    background: url('/img/zineoverlay.png') no-repeat center center / cover;
+    background: url('/img/zineoverlay.jpg') no-repeat center center / cover;
     height: 85vh;
-    opacity: .6;
     position: relative;
     z-index: -1;
 }
-  
-.main-title {
-      color: $white;
-      font-size: 4rem;
-      font-weight: 1000;
-      text-shadow: 1px 2px $edge,
-                   0 0 1em $edge,
-                   0 0 0.2em $edge;
+
+.zinetitle-img {
+  align-self: center;
+  margin-bottom: 50px;;
+  width: 400px;
+  z-index: 1;
 }
   
-.sub-title {
-      color: $white;
-      font-size: 2.5rem;
-      font-weight: 1200;
-      margin-bottom: 4%;
-}
+// .main-title {
+//       color: $white;
+//       font-size: 4rem;
+//       font-weight: 1000;
+//       text-shadow: 1px 2px $edge,
+//                    0 0 1em $edge,
+//                    0 0 0.2em $edge;
+// }
+  
+// .sub-title {
+//       color: $white;
+//       font-size: 2.5rem;
+//       font-weight: 1200;
+//       margin-bottom: 4%;
+// }
 
 .info {
   color: $edge;
   font-stretch:expanded;
   font-weight: 1000;
+  z-index: 1;
 }
 
 .animinspo-gif {
   align-self: center;
-  width: 500px;
+  width: 400px;
   margin-bottom: 4%;
+  z-index: 1;
 }
 
 
