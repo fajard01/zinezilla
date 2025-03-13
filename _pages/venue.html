@@ -8,14 +8,25 @@ id: venue
     {% include_cached googlemap.html %} 
 </div>
 <!-- right venue info -->
-<div class="col map-info">
-    <h4 class="centre-col venue">Trinity Community Arts Centre
+<div class="col trinity-info">
+    <h4 class="centre-col address">Trinity Community Arts Centre
         <br>Trinity Rd, St Jude's
         <br>Bristol BS2 0NW</h4>
-    <a class="trinity-link centre-col" target="_blank" 
-       href="https://www.trinitybristol.org.uk/">trinitybristol.org.uk
-    </a>
+    <div class="row">
+        <img src={{ "/img/zonezilla.jpg" }} alt="Zonezilla" class="zonezilla">
+    </div>
+    <div class="row">
+        <div class="col globe-col">
+            <img src={{ "/img/globe.png" }} alt="Globe" target="_blank" class="globe-icon"
+                 onclick="location.href='https://www.trinitybristol.org.uk'">
+        </div>
+        <div class="col globe-icon-text">
+            <i>trinitybristol.org.uk</i>
+        </div>
+        
+    </div>
 </div>
+<br>
 <hr style="color: black;">
     
 

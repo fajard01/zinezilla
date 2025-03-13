@@ -1,13 +1,15 @@
 <!-- top main navigation bar-->
 
 <nav class="navbar"> 
-  <img src={{ "/img/logo.png" | absolute_url }} class="logo"></img>
+  <img src={{ "/img/logo.png" | absolute_url }} class="logo">
   <ul class="nav-menu">
+    <!-- H I V A -->
     {% for link in site.data.navigation.navlinks %}
     <li class="nav-item">
       <a class="nav-link" href={{ link.link | relative_url }}>{{ link.title }}</a>
     </li>
     {% endfor %}
+    <!-- T S -->
     {% for url in site.data.navigation.buttons %}
     <li class="nav-item">
       <a class="btn btn-primary button" target="_blank" role="button"

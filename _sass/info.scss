@@ -30,6 +30,7 @@
 }
 
 .animinspo-col {
+    margin-bottom: 2%;
     margin-top: 4%;
 }
 
@@ -46,6 +47,30 @@
 .animinspologo-img {
     height: 250px;
     width: 250px;
+}
+
+.animinpo-row {
+    justify-items: center;
+    margin-bottom: 20p;
+}
+
+.animispo-globe-col {
+    direction: flex;
+  }
+  
+.animinspo-globe-icon {
+    float: right;
+    margin-bottom: 4%;
+    width: 20%;
+}
+  
+.animinspo-globe-icon:hover {
+    transform: scale(1.2);
+}
+  
+.animinspo-globe-icon-text{
+    text-align: left;
+    font-size: 1.8rem;
 }
 
 
