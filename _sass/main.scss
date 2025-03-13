@@ -11,14 +11,15 @@
 
 // global properties
 // variables
-$font-stack: Verdana, sans-serif; 
+$font-stack: 'Trebuchet MS', sans-serif; 
 $nav-height: 140px;
 
 // derived colours
 $white: #fff;
 $black: #000;
 $bg-black1: #18181e;
-$bg-black2: #060c17;
+//$bg-black2: #060c17;
+$bg-black2: #150021;
 $bg-black3: #2f3139;
 $deep-blu: #1c263e;
 $salt-lake: #6f665d;
@@ -39,7 +40,7 @@ $line-end: #f0f0f0;
 $line-mid: #8c8b8b;
 $violet: #3104b4;
 $green-yellow: #5fb404;
-$zinezilla-yellow: #ffd500;
+$zinezilla-yellow: #f7a705;
 //$zinezilla-yellow: #b08024;
 
 // title font sizes
@@ -68,7 +69,7 @@ $zinezilla-yellow: #ffd500;
 
 body {
   background-color: $zinezilla-yellow;
-  color: $white;
+  color: $bg-black2;
   font-family: $font-stack;
   font-size: 16px;
 }
