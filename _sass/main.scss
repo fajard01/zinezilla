@@ -99,11 +99,29 @@ a {
   width: auto;
 }
 
-.globe-col {
-  direction: flex;
+.action-row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.globe-icon {
+.action-col {
+  margin-top: 2%;
+}
+
+.globe-row {
+  align-items: center;
+  columns: 2;
+  display: flex;
+  justify-content: center;
+}
+
+// .globe-col {
+//   direction: flex;
+// }
+
+.globe-icon {float: right;
+  width: 35px;
   float: right;
   width: 35px;
 }
@@ -112,8 +130,10 @@ a {
   transform: scale(1.2);
 }
 
-.globe-icon-text{
+.globe-icon-text {
   font-size: 1.8rem;
+  text-align: left;
+  margin-left: 8px;
 }
 
 //////////////////////////////////////////////

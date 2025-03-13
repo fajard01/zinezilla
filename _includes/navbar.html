@@ -13,7 +13,9 @@
     {% for url in site.data.navigation.buttons %}
     <li class="nav-item">
       <a class="btn btn-primary button" target="_blank" role="button"
-         href={{ url.url | relative_url }}>{{ url.title }}</a>
+         href={{ url.url | relative_url }}>
+         {{ url.title }}
+      </a>
     </li>  
     {% endfor %}
   </ul>
