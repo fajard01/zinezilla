@@ -30,6 +30,9 @@
   font-weight: 600;
 }
 
+.nav-link:hover {
+  color: $zinezilla-yellow;
+}
 .nav-link::after {
   content: '';
   display: block;
