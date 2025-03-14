@@ -112,5 +112,17 @@
     }
 }
 
+@include mq-xl {
+    .google-map {
+        width: 100%;
+    }
+    .zonezilla {
+        width: 100%;
+    }
+    .address {
+        font-size: 2.5rem;
+    }
+}
+
 
   
