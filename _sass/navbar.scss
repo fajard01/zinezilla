@@ -4,6 +4,7 @@
   background-color: $bg-black2;
   display: flex;
   justify-content: space-between;
+  position: relative;
   width: 100%;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .nav-link:hover {
-  color: $zinezilla-yellow;
+  color: $porcelain;
 }
 .nav-link::after {
   content: '';
@@ -42,7 +43,7 @@
 }
 
 .nav-link:hover::after {
-  border-bottom: $zinezilla-yellow 1px solid;
+  border-bottom: $porcelain 1px solid;
   width: 100%;
 }
 
@@ -52,11 +53,11 @@
   border-radius: 10px;
   color: $bg-black2;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-size: .8rem;
   font-weight: 700;
   padding: 1px 6px;
-  text-decoration: none;
   transition-duration: 0.4s;
-  width: 100px;
+  width: 110px;
   cursor: pointer;
 }
 

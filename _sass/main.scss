@@ -17,10 +17,12 @@ $nav-height: 140px;
 // derived colours
 $white: #fff;
 $black: #000;
+$porcelain: #eff2f3;
 $bg-black1: #18181e;
-//$bg-black2: #060c17;
-$bg-black2: #150021;
+$bg-black2: #353520;
 $bg-black3: #2f3139;
+$bg-black4: #150021;
+$storm-dust: #626262;
 $deep-blu: #1c263e;
 $salt-lake: #6f665d;
 $atmosphere: #2f3643;
@@ -40,7 +42,12 @@ $line-end: #f0f0f0;
 $line-mid: #8c8b8b;
 $violet: #3104b4;
 $green-yellow: #5fb404;
-$zinezilla-yellow: #f4c430;
+$safron-yellow: #f4c430;
+$zinezilla-yellow: #eeba07;
+$gold-yellow: #eeba07;
+$corn-yellow: #e9b909;
+$cheese-yellow: #e4c33d;
+$sun-yellow: #fed33C;
 //$zinezilla-yellow: #b08024;
 
 // title font sizes
@@ -69,7 +76,7 @@ $zinezilla-yellow: #f4c430;
 
 body {
   background-color: $zinezilla-yellow;
-  color: $bg-black2;
+  color: $black;
   font-family: $font-stack;
   font-size: 16px;
 }
