@@ -1,6 +1,4 @@
 ///////// Global Properties //////////
-
-// imports 
 // icons
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -9,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
-// global properties
 // variables
 $font-stack: 'Trebuchet MS', sans-serif; 
 $nav-height: 100px;
@@ -19,7 +16,7 @@ $white: #fff;
 $black: #000;
 $porcelain: #eff2f3;
 $bg-black1: #18181e;
-$bg-black2: #150021;
+$bg-black2: #150021;    // navbar
 $bg-black3: #2f3139;
 $storm-dust: #626262;
 $deep-blu: #1c263e;
@@ -46,7 +43,7 @@ $gold-yellow: #eeba07;
 $corn-yellow: #e9b909;
 $cheese-yellow: #e4c33d;
 $sun-yellow: #fed33C;
-$zinezilla-yellow: #eeba07; // gold-ellow
+$zinezilla-yellow: #eeba07; // gold-yellow base colour
 
 // title font sizes
 @mixin head {
@@ -65,7 +62,8 @@ $zinezilla-yellow: #eeba07; // gold-ellow
   text-align: center;
 }
 
-// global settings
+//////////////// Global CSS HTML Settings ///////////////////
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -127,6 +125,7 @@ a {
   width: 35px;
   float: right;
   width: 35px;
+  cursor: pointer;
 }
 
 .globe-icon:hover {
@@ -140,11 +139,26 @@ a {
   margin-left: 8px;
 }
 
+.fa-icon {
+  color: $jungle;
+  font-size: 1.8rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fa-icon:hover {
+  transform: scale(1.2);
+}
+
 .fa-text {
   font-weight: 550;;
 }
 
-//////////////////////////////////////////////
+.fa-mail {
+  margin-right: 7px;
+}
+
+////////////// Media Queries Breakpoints /////////
 
 // media queries
 @mixin mq-xs {

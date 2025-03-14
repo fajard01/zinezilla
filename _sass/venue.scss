@@ -21,19 +21,19 @@
 }
 
 .google-map {
-    height: 80%;
+    height: 60%;
     margin-bottom: 70px;
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 150px;
-    width: 600px;
+    width: 100%;
 }
 
 //// right col
 .trinity-info {
     flex-direction: column;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 16%;
     margin-bottom: 10%;
 }
 
@@ -45,8 +45,8 @@
 
 .zonezilla {
     justify-items: center;$zinezilla-yellow: #eeba07;
-    width: 530px;
     margin: 50px 20px;
+    width: 80%;
 }
 
 .trinity-web {
@@ -109,18 +109,6 @@
     }
     .venue {
         text-align: center;
-    }
-}
-
-@include mq-xl {
-    .google-map {
-        width: 100%;
-    }
-    .zonezilla {
-        width: 100%;
-    }
-    .address {
-        font-size: 2.5rem;
     }
 }
 
