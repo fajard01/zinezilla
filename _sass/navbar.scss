@@ -27,12 +27,12 @@
 .nav-link {
   color: $zinezilla-yellow;
   font-family: $font-stack;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .nav-link:hover {
-  color: $porcelain;
+  color: $white;
 }
 .nav-link::after {
   content: '';
@@ -43,19 +43,19 @@
 }
 
 .nav-link:hover::after {
-  border-bottom: $porcelain 1px solid;
+  border-bottom: $white 1px solid;
   width: 100%;
 }
 
 .button {
   background-color: $zinezilla-yellow;
   border: 1px;
-  border-radius: 10px;
+  border-radius: 14px;
   color: $bg-black2;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 700;
-  padding: 1px 6px;
+ // padding: 1px 6px;
   transition-duration: 0.4s;
   width: 110px;
   cursor: pointer;

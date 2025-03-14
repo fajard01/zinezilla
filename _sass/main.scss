@@ -43,24 +43,23 @@ $line-mid: #8c8b8b;
 $violet: #3104b4;
 $green-yellow: #5fb404;
 $safron-yellow: #f4c430;
-$zinezilla-yellow: #eeba07;
 $gold-yellow: #eeba07;
 $corn-yellow: #e9b909;
 $cheese-yellow: #e4c33d;
 $sun-yellow: #fed33C;
-//$zinezilla-yellow: #b08024;
+$zinezilla-yellow: #eeba07; // gold-ellow
 
 // title font sizes
 @mixin head {
   font-size: 2.7rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
 }
 
 @mixin subhead {
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: auto;
   margin-bottom: 45px;
   max-width: 90%;
@@ -78,7 +77,7 @@ body {
   background-color: $zinezilla-yellow;
   color: $black;
   font-family: $font-stack;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 li {
@@ -137,8 +136,13 @@ a {
 
 .globe-icon-text {
   font-size: 1.8rem;
+  font-weight: 550;
   text-align: left;
   margin-left: 8px;
+}
+
+.fa-text {
+  font-weight: 550;;
 }
 
 //////////////////////////////////////////////
