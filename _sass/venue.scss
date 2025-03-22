@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.google-map {
+#google-map {
     height: 60%;
     margin-bottom: 70px;
     margin-left: 70px;
@@ -60,7 +60,7 @@
 //////////////////////////////////////
 
 @include mq-xs {
-    .google-map {
+    #google-map {
         margin-top: 200px;
         width: 300px;
     }
@@ -78,7 +78,7 @@
 }
 
 @include mq-sm {
-    .google-map {
+    #google-map {
         height: 300px;
         margin-top: 200px;
         width: 400px;
@@ -97,7 +97,7 @@
 }
   
 @include mq-md {
-    .google-map {
+    #google-map {
         margin-top: 150px;
         width: 500px;
     }
