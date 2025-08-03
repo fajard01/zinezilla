@@ -1,0 +1,26 @@
+---
+layout: default 
+id: apply
+--- 
+<div class="col centre-col event-head exhibit-title">
+    <h1>
+        Zinezilla Exhibitors
+    </h1>
+</div>
+<table id="table-col">
+    <tbody>
+        {% for exhibitor in site.data.participants.exhibitors %}
+        <tr scope="row" class="exhibitor-name">
+            <th>
+                {{ exhibitor.name }}
+            </th>
+            <td>
+                <a href={{ participant.url }}
+                target="_blank">{{ exhibitor.url }}
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+

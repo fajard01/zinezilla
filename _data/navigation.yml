@@ -7,6 +7,8 @@ navlinks:
     link: /_pages/venue.html
   - title: Apply
     link: /_pages/apply.html 
+  - title: Exhibitors
+    link: /_pages/exhibitors.html
 buttons:
   - title: Get Tickets
     url: https://hdfst.uk/e123090

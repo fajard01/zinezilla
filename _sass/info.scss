@@ -57,16 +57,50 @@
     scale: 70%;
 }
 
+.workshops {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+.workshop-img {
+    width: 450px;
+}
+
+.pip-col {
+    margin: auto;
+}
+
+.pip-logo-col {
+    margin: auto;
+}
+
+.pip-apply-btn {
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.pip-apply-img {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.pip-apply-btn:hover {
+    transform: scale(1.2);
+}
 
 
 /////////////////////////////////////////////
 
-@media mq-xs {
+@include mq-xs {
     .event-col {
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .event-head {
-        font-size: 1rem;
+        font-size: 1.8rem;
+    }
+    .workshop-img {
+        width: 300px;
     }
 }
