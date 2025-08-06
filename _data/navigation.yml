@@ -5,8 +5,8 @@ navlinks:
     link: /_pages/info.html
   - title: Venue
     link: /_pages/venue.html
-  - title: Apply
-    link: /_pages/apply.html 
+#  - title: Apply
+#    link: /_pages/apply.html 
   - title: Exhibitors
     link: /_pages/exhibitors.html
 buttons:

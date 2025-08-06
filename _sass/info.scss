@@ -15,6 +15,10 @@
                  0 0 0.2em $edge;
 }
 
+// .action-col {
+//     margin: auto;
+// }
+
 .action-gif {
     background: transparent;
     border: none;
@@ -26,6 +30,7 @@
     background-color: transparent;
     border: none;
     border-radius: 10%;
+    margin-top: 30px;;
 }
 
 .applynow-img {
@@ -36,6 +41,20 @@
 .applynow-button:hover {
     display: none;
 }
+
+// v2
+.zineland-img {
+    // height: 100%;
+    width: 200px;
+}
+
+.tba {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 30px;
+}
+// /v2
 
 .animinspo-logo-col {
     margin: auto;
@@ -87,6 +106,7 @@
 
 .pip-apply-img {
     height: 80px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
