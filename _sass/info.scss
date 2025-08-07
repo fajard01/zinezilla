@@ -15,10 +15,6 @@
                  0 0 0.2em $edge;
 }
 
-// .action-col {
-//     margin: auto;
-// }
-
 .action-gif {
     background: transparent;
     border: none;
@@ -33,16 +29,16 @@
     margin-top: 30px;;
 }
 
-.applynow-img {
-    height: 100%;
-    width: 250px;
-}
+//////////////////// v1
+// .applynow-img {
+//     height: 100%;
+//        width: 250px;
+// }
 
-.applynow-button:hover {
-    display: none;
-}
+// .applynow-button:hover {
+//     display: none;
+///////////////////// }
 
-// v2
 .zineland-img {
     // height: 100%;
     width: 200px;
@@ -54,7 +50,6 @@
     font-weight: 200;
     margin-top: 30px;
 }
-// /v2
 
 .animinspo-logo-col {
     margin: auto;
@@ -70,15 +65,16 @@
     width: 300px;
 }
 
-.animinspo-apply-img {
-    transition: transform .7s ease-in-out;
-    width: 130px;
-}
+///////////////////////// v1
+// .animinspo-apply-img {
+//     transition: transform .7s ease-in-out;
+//     width: 130px;
+// }
 
-.animinspo-apply-img:hover {
-    transform: rotate(360deg);
-    scale: 70%;
-}
+// .animinspo-apply-img:hover {
+//     transform: rotate(360deg);
+//     scale: 70%;
+///////////////////////// }
 
 .workshops {
     justify-content: center;
@@ -92,6 +88,11 @@
 
 .pip-col {
     margin: auto;
+}
+
+.pip-presenter:hover {
+    font-style: italic;
+    font-weight: 1000;
 }
 
 .pip-logo-col {
