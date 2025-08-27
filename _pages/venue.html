@@ -1,10 +1,9 @@
 ---
-layout: column
+layout: default
 id: venue
 ---
 
-
-<!-- right venue info -->
+<!-- centre info -->
 <div class="col trinity-info">
     <h4 class="centre-col address">Trinity Community Arts Centre
         <br>Trinity Rd, St Jude's
@@ -27,13 +26,21 @@ id: venue
         
     </div>
 </div>
-<br>
-<!-- left google map -->
-<div class="col map">
-    {% include_cached googlemap.html %} 
-</div>
 <div class="row">
-    <dl class="transport-dl">
+    <!-- left google map -->
+    <div class="col map">
+        {% include_cached googlemap.html %} 
+    </div>
+    <!-- right floormap-->
+    <div class="col floor">
+        <img src={{ "/img/floorplan.jpg" }}
+             alt="Floorplan"
+             class="floorplan">
+    </div>
+</div>
+
+<div class="transport">
+    <dl class=transport-dl">
         <dt>Accessibility</dt>
         <dd>
             The venue is accessible, with lift access to the first floor and accessible toilets located on both floors.

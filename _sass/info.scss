@@ -86,6 +86,7 @@
     width: 450px;
 }
 
+
 .pip-col {
     margin: auto;
 }
@@ -96,7 +97,7 @@
 }
 
 .pip-logo-col {
-    margin: auto;
+    margin-top: 50px;
 }
 
 .pip-apply-btn {
@@ -114,6 +115,36 @@
 .pip-apply-btn:hover {
     transform: scale(1.2);
 }
+
+.program-col {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.program-img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.workshop-col {
+    display: block;
+    justify-content: center;
+}
+
+.collage-img {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.poetry-img {
+    margin-bottom: 50px;;
+    margin-top: 10px;
+    width: 250px;
+}
+
+
 
 
 /////////////////////////////////////////////
