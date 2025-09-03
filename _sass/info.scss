@@ -29,7 +29,12 @@
     margin-top: 30px;;
 }
 
-//////////////////// v1
+.program {
+    margin: 10px;
+    width: 40%;
+}
+
+//////////////////// 
 // .applynow-img {
 //     height: 100%;
 //        width: 250px;
@@ -37,23 +42,53 @@
 
 // .applynow-button:hover {
 //     display: none;
-///////////////////// }
+// }
 
-.zineland-img {
-    // height: 100%;
-    width: 200px;
-}
+// .zineland-img {
+//     height: 100%;
+//     width: 200px;
+// }
 
-.tba {
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 200;
-    margin-top: 30px;
-}
+// .tba {
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: 200;.zineland-img {
+//     height: 100%;.zineland-img {
+//     height: 100%;
+//     width: 200px;
+// }
+
+// .tba {
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: 200;
+//     margin-top: 30px;
+// }
+//     width: 200px;
+// }
+
+// .tba {
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: 200;
+//     margin-top: 30px;
+// }.zineland-img {
+//     height: 100%;
+//     width: 200px;
+// }
+
+// .tba {
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: 200;
+//     margin-top: 30px;
+// }
+//     margin-top: 30px;
+// }
 
 .animinspo-logo-col {
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .animinspo-col {
@@ -65,7 +100,14 @@
     width: 300px;
 }
 
-///////////////////////// v1
+.animinspo-gif {
+    background: transparent;
+    border: none;
+    height: 50px;
+    width: 300px;
+}
+
+///////////////////////// 
 // .animinspo-apply-img {
 //     transition: transform .7s ease-in-out;
 //     width: 130px;
@@ -74,7 +116,7 @@
 // .animinspo-apply-img:hover {
 //     transform: rotate(360deg);
 //     scale: 70%;
-///////////////////////// }
+// }
 
 .workshops {
     justify-content: center;
@@ -107,7 +149,7 @@
 }
 
 .pip-apply-img {
-    height: 80px;
+    height: 100px;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -160,6 +202,9 @@
         width: 300px;
     }
     .program-img {
+        width: 300px;
+    }
+    .program {
         width: 300px;
     }
 }
