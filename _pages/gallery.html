@@ -4,12 +4,11 @@ id: gallery
 ---
 
 <div class="gallery">
-    {% for pix in site.data.pictures %}
+    {% for pix in site.data.pictures.images %}
         <a class="pix-link" 
-           href={{ pix[1].src | relative_url }}
-           rel="lightbox">
-          <!--</a> data-lightbox={{ pix[1].event }}> -->
-                <img class='gallery-pix' src={{ pix[1].src | relative_url }} alt="Gallery Picture">
+           href={{ pix.src | relative_url }}
+           data-lightbox="lightpix">
+                <img class='gallery-pix' src={{ pix.src | relative_url }}>
         </a>
     {% endfor %}
 </div>

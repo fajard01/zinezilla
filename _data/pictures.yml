@@ -25,4 +25,20 @@ pix12:   &pix12
 pix13:   &pix13
   src: /pix/pix13.jpg
 pix14:   &pix14
-  src: /pix/pix14.jpg                
+  src: /pix/pix14.jpg     
+
+images:
+  - *pix1           
+  - *pix2 
+  - *pix3 
+  - *pix4 
+  - *pix5 
+  - *pix6 
+  - *pix7 
+  - *pix8 
+  - *pix9 
+  - *pix10
+  - *pix11
+  - *pix12
+  - *pix13
+  - *pix14
