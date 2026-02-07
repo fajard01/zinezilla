@@ -1,14 +1,16 @@
 navlinks:
   - title: Home
     link: /
-  - title: Info
-    link: /_pages/info.html
+#  - title: Info
+#    link: /_pages/info.html
   - title: Venue
     link: /_pages/venue.html
 #  - title: Apply
 #    link: /_pages/apply.html 
   - title: Exhibitors
     link: /_pages/exhibitors.html
+  - title: Gallery
+    link: /_pages/gallery.html
 buttons:
   - title: Get Tickets
     url: https://hdfst.uk/e123090

@@ -1,0 +1,28 @@
+pix1:   &pix1
+  src: /pix/pix1.jpg  
+pix2:   &pix2
+  src: /pix/pix2.jpg
+pix3:   &pix3
+  src: /pix/pix3.jpg
+pix4:   &pix4
+  src: /pix/pix4.jpg
+pix5:   &pix5
+  src: /pix/pix5.jpg
+pix6:   &pix6
+  src: /pix/pix6.jpg
+pix7:   &pix7
+  src: /pix/pix7.jpg
+pix8:   &pix8
+  src: /pix/pix8.jpg 
+pix9:   &pix9
+  src: /pix/pix9.jpg
+pix10:   &pix10
+  src: /pix/pix10.jpg
+pix11:   &pix11
+  src: /pix/pix11.jpg
+pix12:   &pix12
+  src: /pix/pix12.jpg
+pix13:   &pix13
+  src: /pix/pix13.jpg
+pix14:   &pix14
+  src: /pix/pix14.jpg                
