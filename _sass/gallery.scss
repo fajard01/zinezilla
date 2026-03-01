@@ -1,7 +1,3 @@
-.pix-link:hover {
-    transform: scale(1.1);
-}
-
 .gallery {
     display: flex;
     align-items: center;
@@ -10,9 +6,21 @@
     margin-top: 60px;
     flex-wrap: wrap;
     height: auto;
-}
+    overflow: hidden;
 
-.gallery-pix {
-    margin: 20px;
-    width: 200px;
+    .pix-wrapper {
+        overflow: hidden;
+        position: relative;
+        margin: 20px;
+        width: 200px;
+
+        img {
+            transition: transform 0.3s;
+            width: 90%;
+        }
+
+        img:hover {
+        transform: scale(1.2);
+        }
+    }
 }

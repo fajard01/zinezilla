@@ -5,10 +5,13 @@ id: gallery
 
 <div class="gallery">
     {% for pix in site.data.pictures.images %}
-        <a class="pix-link" 
-           href={{ pix.src | relative_url }}
-           data-lightbox="lightpix">
-                <img class='gallery-pix' src={{ pix.src | relative_url }}>
-        </a>
+        <div class="pix-wrapper">
+            <a class="pix-link" 
+               href={{ pix.src | relative_url }}
+               data-lightbox="lightpix">
+                    <img class='gallery-pix' src={{ pix.src | relative_url }}>
+            </a>
+        </div>
+        
     {% endfor %}
 </div>
