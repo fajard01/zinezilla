@@ -2,17 +2,18 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
+    margin-bottom: 50px;
     text-align:center;
     width: 70%;
 }
 
 .event-head {
-    color: $porcelain;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-shadow: 1px 1px $edge,
-                 0 0 1em $edge,
-                 0 0 0.2em $edge;
+    color: $bg-black2;
+    font-size: 1.6rem;
+    font-weight: 600;
+    // text-shadow: 1px 1px $porcelain,
+    //             0 0 1em $porcelain,
+    //             0 0 0.2em $porcelain;
 }
 
 .action-gif {
@@ -29,9 +30,20 @@
     margin-top: 30px;;
 }
 
+.info-col {
+    display: flex;
+    justify-items: center;
+   // margin-right: 110px;
+   // margin-top: 35px;
+    margin-bottom: 50px;
+    text-align:center;
+    width: 100px;
+
+}
+
 .program {
     margin: 10px;
-    width: 40%;
+    width: 50%;
 }
 
 //////////////////// 
