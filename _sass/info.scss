@@ -8,12 +8,22 @@
 }
 
 .event-head {
-    color: $bg-black2;
     font-size: 1.6rem;
     font-weight: 600;
     // text-shadow: 1px 1px $porcelain,
     //             0 0 1em $porcelain,
     //             0 0 0.2em $porcelain;
+}
+
+.event-info {
+    color: #396673;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px royalblue;
+                //   0 0 0.2em royalblue
+                //   0 0 0.2em royalblue;
+    margin-bottom: 80px;;
 }
 
 .action-gif {
