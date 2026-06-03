@@ -82,7 +82,12 @@ li {
 }
 
 a {
+  color: purple;
   text-decoration: none;
+}
+
+a:hover {
+  color: teal;
 }
 
 .bg-fullwidth {
