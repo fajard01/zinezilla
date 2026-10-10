@@ -1,8 +1,8 @@
 navlinks:
   - title: Home
     link: /
-  - title: Info
-    link: /_pages/info.html
+#  - title: Info
+#    link: /_pages/info.html
   - title: Venue
     link: /_pages/venue.html
 #  - title: Apply
